@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #495057;
+  background-color: #ebfbee;
+  font-family: sans-serif;
+  font-size: 1.8rem;
+}
+
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+.header {
+  margin: 4.8rem 9.6rem;
+}
+
+.logo {
+  height: 4.8rem;
+}
+
+.nav {
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav__list {
+  align-items: center;
+  gap: 1.6rem;
+  list-style: none;
+  display: flex;
+}
+
+.nav__btn {
+  color: #495057;
+  text-transform: uppercase;
+  background-color: #8ce99a;
+  border: none;
+  border-radius: 9px;
+  padding: 1.6rem 3.2rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-decoration: none;
+  transition: all .5s;
+}
+
+.nav__btn:hover {
+  background-color: #2f9e44;
+}
+
+.app {
+  margin-bottom: 9.6rem;
+}
+
+.form {
+  background-color: green;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 1.6rem;
+  display: grid;
+}
+
+.form__hidden {
+  display: none;
+}
+
+.form__row {
+  gap: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  display: flex;
+}
+
+.form__input {
+  width: 100%;
+}
+
+/*# sourceMappingURL=index.c92073ef.css.map */

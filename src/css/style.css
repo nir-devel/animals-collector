@@ -1,0 +1,114 @@
+/**************************
+1.Typography: 
+
+   Font-Size: 1.8rem
+
+
+--------------------
+2.Colors: 
+------------------------
+Background: 
+    Brand: #8ce99a
+   
+    Light:#ebfbee
+    Dark: #2f9e44
+
+Grey: 
+    Main:#495057
+    
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  background-color: #ebfbee;
+  color: #495057;
+}
+
+/*GENERAL*/
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+}
+
+/*-----HEADER + NAVIGATION------*/
+
+.header {
+  margin: 4.8rem 9.6rem;
+}
+.logo {
+  height: 4.8rem;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__list {
+  list-style: none;
+  gap: 1.6rem;
+
+  display: flex;
+  align-items: center;
+}
+
+.nav__btn {
+  color: #495057;
+  background-color: #8ce99a;
+  padding: 1.6rem 3.2rem;
+  border-radius: 9px;
+  border: none;
+  font-size: 1.8rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  transition: all 0.5s;
+}
+
+.nav__btn:hover {
+  background-color: #2f9e44;
+}
+
+/********************
+    App
+**********************/
+.app {
+  margin-bottom: 9.6rem;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: green;
+  margin: 0 1.6rem;
+  /* transition: all 0.5; */
+}
+
+.form__hidden {
+  display: none;
+}
+
+.form__row {
+  padding: 1.6rem 3.2rem;
+
+  display: flex;
+  gap: 1.6rem;
+}
+
+.form__input {
+  width: 100%;
+}
